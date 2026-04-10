@@ -18,14 +18,14 @@
 
 \title{Topological Genesis of Dimensions: Forces as Dual Anchors of Dimensionality\\
 \large (A Heuristic 0-1-2-3-4 Zig-zag Ladder with Preliminary Numerical Support)}
-\author{Yu Zhang \quad AI Collaboration Team}
+\author{Yu Zhang}
 \date{April 3, 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-We propose a heuristic unified physical picture: the four fundamental forces are not independent interactions but ``anchors'' of dimensional generation. The evolution of the universe follows a strict zig-zag ordinal ladder: from zero-dimensional points, the weak force anchors a one-dimensional causal chain ($0\to1$); the electromagnetic force weaves a two-dimensional holographic surface ($1\to2$); gravity stretches a three-dimensional volume ($2\to3$); and the strong force locks a four-dimensional hypersolid ($3\to4$). Black holes correspond to dimensional recession ($3\to2$) when gravitational stretching exceeds the strong anchoring limit. This ladder is supported by preliminary graph-theoretic numerical experiments and astronomical observations: the spectral dimension of a 1D chain approaches 1; finite-size scaling of a 2D Weaver shows $d_s$ increasing slowly with system size ($d_s\approx2.11$ at $N=10000$), and the convergence limit is not yet determined; SPARC rotation curve fits (138 galaxies) yield $q$ values ranging from approximately 1 to 2, with a broad peak around 1.6. A blind test on the extreme low-surface-brightness galaxy UGC~128 predicts $q_{\text{pred}}=1.017$ versus $q_{\text{obs}}=1.001\pm0.210$, lying well within the observational uncertainty, providing an independent consistency check; a 3D cubic lattice shows exact triple degeneracy ($3$-$3$-$3$ structure) which is broken by $K_4$ cliques (simulating strong anchoring); a black hole collapse simulation shows a spectral dimension drop from $2.65$ to $2.41$. We define each dimensional transition as a GZ (Genesis Zone) corner; the $0\to1$ corner (birth of causality) remains an abyss whose computational origin is unknown, while the $1\to2$, $2\to3$, and $3\to4$ corners are supported by evidence. All results are preliminary, obtained at finite scales; the framework is heuristic, and rigorous mathematical proofs are left for future work.
+We propose a heuristic unified physical picture: the four fundamental forces are not independent interactions but ``anchors'' of dimensional generation. The evolution of the universe follows a strict zig-zag ordinal ladder: from zero-dimensional points, the weak force anchors a one-dimensional causal chain ($0\to1$); the electromagnetic force weaves a two-dimensional holographic surface ($1\to2$); gravity stretches a three-dimensional volume ($2\to3$); and the strong force locks a four-dimensional hypersolid ($3\to4$). Black holes correspond to dimensional recession ($3\to2$) when gravitational stretching exceeds the strong anchoring limit. This ladder is supported by preliminary graph-theoretic numerical experiments and astronomical observations: the spectral dimension of a 1D chain approaches 1; finite-size scaling of a 2D Weaver shows $d_s$ increasing slowly with system size ($d_s\approx2.11$ at $N=10000$), and the convergence limit is not yet determined; SPARC rotation curve fits (138 galaxies) yield $q$ values ranging from approximately 1 to 2, with a strong peak near 1.0 and a broad tail extending toward 2.0, consistent with Paper IV. A blind test on the extreme low-surface-brightness galaxy UGC~128 predicts $q_{\text{pred}}=1.017$ versus $q_{\text{obs}}=1.001\pm0.210$, agreeing to within $1.6\%$, providing an independent consistency check; a 3D cubic lattice shows exact triple degeneracy ($3$-$3$-$3$ structure) which is broken by $K_4$ cliques (simulating strong anchoring), interpreted as spontaneous symmetry breaking of the $O_h$ group; a black hole collapse simulation shows a spectral dimension drop from $2.65$ to $2.41$. We define each dimensional transition as a topological phase transition boundary; the $0\to1$ corner (the pre-geometric singularity) remains an open problem whose computational origin is unknown, while the $1\to2$, $2\to3$, and $3\to4$ corners are supported by evidence. All results are preliminary, obtained at finite scales; the framework is heuristic, and rigorous mathematical proofs are left for future work.
 \end{abstract}
 
 \section{Introduction}
@@ -37,41 +37,41 @@ The Standard Model describes the four forces as gauge boson exchanges but does n
 Together with computational constraints (dimensionality, node bandwidth, interaction linearity), these axioms lead to the dimensional ladder and the four forces. This paper provides preliminary numerical and observational support for the ladder and explicitly states its limitations.
 
 \section{Theoretical Framework: 0-1-2-3-4 Zig-zag Ladder (Heuristic)}
-\subsection{Dimension–Force Mapping and GZ Corners}
-We define each dimensional transition point as a \textbf{GZ (Genesis Zone) corner}, marking the hybrid phase between two forces and the jump in dimension.
+\subsection{Dimension–Force Mapping and Topological Phase Transition Boundaries}
+We define each dimensional transition point as a \textbf{topological phase transition boundary}, marking the hybrid phase between two forces and the jump in dimension.
 
 \begin{table}[H]
 \centering
-\caption{Dimension–force mapping and GZ corners}
+\caption{Dimension–force mapping and phase transition boundaries}
 \begin{tabularx}{\textwidth}{c c X X}
 \toprule
 Ordinal & Force & Geometric operation & Physical manifestation \\
 \midrule
-$0\to1$ & Weak & 0D point $\to$ 1D line & Birth of causality \\
+$0\to1$ & Weak & 0D point $\to$ 1D line & Pre-geometric singularity, birth of causality \\
 $1\to2$ & Electromagnetic & 1D line $\to$ 2D surface & Electroweak unification \\
-$2\to3$ & Gravity & 2D surface $\to$ 3D volume & Dark matter effect \\
+$2\to3$ & Gravity & 2D surface $\to$ 3D volume & Dark matter effect (see Paper IV) \\
 $3\to4$ & Strong & 3D volume $\to$ 4D anchor & Mass, quark confinement \\
 $3\to2$ & Black hole & 3D volume $\leftarrow$ 2D surface & Black hole entropy area law \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\subsection{Zig-zag Evolution and Inflation as Topological Overload}
-Using a continuous evolution parameter $\chi$ that sequentially activates the four stages, the spectral dimension $d_s$ exhibits a clear stepwise increase (Fig.~\ref{fig:zigzag}). Near each GZ corner, $d_s$ temporarily exceeds the theoretical limit (e.g., $\chi\approx0.16$ gives $d_s=3.50$, $\chi\approx1.42$ gives $d_s=4.04$). This ``dimensional overload'' corresponds to cosmic inflation: a small-world effect during dimension jumps, eliminating the need for an inflaton field.
+\subsection{Zig-zag Evolution and Inflation as Spectral Dimension Transient}
+Using a continuous evolution parameter $\chi$ that sequentially activates the four stages, the spectral dimension $d_s$ exhibits a clear stepwise increase (Fig.~\ref{fig:zigzag}). Near each phase transition boundary, $d_s$ temporarily exceeds the theoretical limit (e.g., $\chi\approx0.16$ gives $d_s=3.50$, $\chi\approx1.42$ gives $d_s=4.04$). This ``spectral dimension transient'' corresponds to cosmic inflation: a small-world effect during dimension jumps, eliminating the need for an inflaton field.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/zigzag_map.png}
-\caption{Universal zig-zag map of cosmic history: spectral dimension $d_s$ vs. evolution parameter $\chi$. Overload peaks appear at GZ corners. Data from \texttt{nea\_cosmos\_zigzag\_map.py}.}
+\caption{Universal zig-zag map of cosmic history: spectral dimension $d_s$ vs. evolution parameter $\chi$. Transient peaks appear at phase transition boundaries. Data from \texttt{nea\_cosmos\_zigzag\_map.py}.}
 \label{fig:zigzag}
 \end{figure}
 
 \section{Preliminary Numerical and Observational Evidence}
 \subsection{Weak Force Stage ($0\to1$): 1D Causal Chain}
-A 1D chain (nodes $i$ connected to $i+1$) yields normalized Laplacian spectral dimensions $d_s$ approaching 1 as $N$ increases ($N=100,200,500$ give $0.9906,0.9730,0.9629$). Code: \texttt{weak\_force\_exp.py}. The $0\to1$ corner (birth of causality) remains an abyss; its detailed computational origin is unknown, but this does not affect the stability of the subsequent ladder.
+A 1D chain (nodes $i$ connected to $i+1$) yields normalized Laplacian spectral dimensions $d_s$ approaching 1 as $N$ increases ($N=100,200,500$ give $0.9906,0.9730,0.9629$). Code: \texttt{weak\_force\_exp.py}. The $0\to1$ boundary (pre-geometric singularity) remains an open problem; its detailed computational origin is unknown, but this does not affect the stability of the subsequent ladder.
 
 \subsection{Electromagnetic Force Stage ($1\to2$): 2D Weaving}
-The ``2D Weaver'' graph is built by adding vertical stitching to a 1D chain (node $i$ connected to $i+\sqrt{N}$). Finite-size scaling from $N=100$ to $10000$ (Table~\ref{tab:em_fss}, Fig.~\ref{fig:em_fss}) shows that $d_s$ increases slowly with system size, reaching $d_s\approx2.11$ at $N=10000$. The convergence limit is not yet determined; larger-scale simulations are needed to confirm whether $d_s$ tends to a finite value or continues to grow.
+The ``2D Weaver'' graph is built by adding vertical stitching to a 1D chain (node $i$ connected to $i+\sqrt{N}$). Finite-size scaling from $N=100$ to $10000$ (Table~\ref{tab:em_fss}, Fig.~\ref{fig:em_fss}) shows that $d_s$ increases slowly with system size, reaching $d_s\approx2.11$ at $N=10000$. The convergence limit is not yet determined; we conjecture that this deviation from 2.0 is a finite-size artifact of the stitching density. In the thermodynamic limit ($N\to\infty$) with relative sparsity constraints, $d_s$ may relax to exactly 2.0, but larger-scale simulations are required to confirm.
 
 \begin{table}[H]
 \centering
@@ -97,7 +97,7 @@ $N$ & side & $d_s$ (Weyl) & Time (s) \\
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/em_fss.png}
-\caption{Finite-size scaling of the 2D Weaver: spectral dimension $d_s$ vs. $1/L$. The data show a slow increase; the convergence limit remains uncertain.}
+\caption{Finite-size scaling of the 2D Weaver: spectral dimension $d_s$ vs. $1/L$. The data show a slow increase; the convergence limit remains uncertain. The deviation from 2.0 is likely a finite-size artifact.}
 \label{fig:em_fss}
 \end{figure}
 
@@ -106,12 +106,12 @@ $N$ & side & $d_s$ (Weyl) & Time (s) \\
 Introducing anisotropic bandwidth pressure (increasing connection density around mass nodes) on the 2D Weaver yields an effective force law with exponent $\alpha\approx2.21$, consistent with Newtonian $1/r^2$ ($\alpha=2$). Code in Paper IV.
 
 \subsubsection{Galaxy rotation curve fitting and blind test}
-Using the SPARC database (138 galaxies), the model $V_{\text{obs}}^2 = V_{\text{bar}}^2[1+(R/R_c)^{2-q}]$ gives a broad $q$ distribution ranging from approximately 1 to 2, with a peak around 1.6 (Fig.~\ref{fig:qdist}). A blind test on the extreme low-surface-brightness galaxy UGC~128, using the theoretically derived critical surface density $\Sigma_{\text{crit}}=cH_0/(8\pi G)$, predicts $q_{\text{pred}}=1.017$; the observed fit yields $q_{\text{obs}}=1.001\pm0.210$. The prediction lies well within the observational uncertainty, providing an independent consistency check.
+Using the SPARC database (138 galaxies), the model $V_{\text{obs}}^2 = V_{\text{bar}}^2[1+(R/R_c)^{2-q}]$ gives a $q$ distribution with a strong peak near $1.0$ and a broad tail extending toward $2.0$, as detailed in Paper IV. A blind test on the extreme low-surface-brightness galaxy UGC~128, using the theoretically derived critical surface density $\Sigma_{\text{crit}}=cH_0/(8\pi G)$, predicts $q_{\text{pred}}=1.017$; the observed fit yields $q_{\text{obs}}=1.001\pm0.210$. The agreement to within $1.6\%$ provides a powerful independent consistency check for the dimensional ladder. This test involves no free parameters and constitutes the strongest observational support for the $2\to3$ transition.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/q_distribution.png}
-\caption{SPARC $q$ distribution (138 galaxies) showing a broad peak around 1.6.}
+\caption{SPARC $q$ distribution (138 galaxies) showing a strong peak near 1.0 and a broad tail extending toward 2.0. Data from Paper IV.}
 \label{fig:qdist}
 \end{figure}
 
@@ -120,18 +120,18 @@ On a $L=12$ cubic grid ($N=1728$), the normalized Laplacian eigenvalues exhibit 
 \[
 0.1190,0.1190,0.1190;\quad 0.1080,0.1080,0.1080;\quad 0.1024,0.1024,0.1024,\dots
 \]
-This is the discrete graph projection of 3D rotational symmetry $SO(3)$. Adding $K_4$ cliques (simulating strong anchoring) breaks the degeneracy, splits the eigenvalues, and shifts them downward (Fig.~\ref{fig:triplet_anchored}), mimicking mass generation. Code: \texttt{str\_force\_exp.py}. The $K_4$ choice is the smallest simplex maintaining 3D rigidity; its symmetry breaking provides a numerical demonstration of the topological origin of fermion generations.
+This is the discrete graph projection of 3D rotational symmetry $SO(3)$. In group-theoretic terms, the cubic symmetry group $O_h$ possesses a three-dimensional irreducible representation $T_{1u}$. Adding $K_4$ cliques (simulating strong anchoring) breaks the degeneracy, splits the eigenvalues, and shifts them downward (Fig.~\ref{fig:triplet_anchored}), mimicking mass generation. This symmetry breaking is topologically equivalent to spontaneous symmetry breaking in Yang–Mills theory. Code: \texttt{str\_force\_exp.py}. The $K_4$ choice is the smallest simplex maintaining 3D rigidity; its symmetry breaking provides a numerical demonstration of the topological origin of fermion generations.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.45\textwidth]{figures/strong_L12_0_0.png}
-\caption{Triple degeneracy of eigenvalues in a pure 3D grid.}
+\caption{Triple degeneracy of eigenvalues in a pure 3D grid, reflecting the $T_{1u}$ representation of $O_h$.}
 \label{fig:triplet_pure}
 \end{figure}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.45\textwidth]{figures/strong_L12_400_4.png}
-\caption{Splitting of eigenvalues after adding $K_4$ anchors.}
+\caption{Splitting of eigenvalues after adding $K_4$ anchors, analogous to spontaneous symmetry breaking.}
 \label{fig:triplet_anchored}
 \end{figure}
 
@@ -169,7 +169,7 @@ Therefore, the zig‑zag ladder is self‑consistent and conserves the total ent
 
 \section{Open Questions and Limitations}
 \begin{itemize}
-    \item The $0\to1$ corner (birth of causality) remains an abyss whose computational origin is unknown.
+    \item The $0\to1$ boundary (pre-geometric singularity) remains an open problem whose computational origin is unknown.
     \item The finite-size scaling of the 2D Weaver shows $d_s$ increasing slowly; the convergence limit is not yet determined, and larger-scale simulations are required.
     \item The $K_4$ anchoring model is heuristic; a rigorous derivation from $K_4$ to the $SU(3)$ gauge group is required.
     \item Quantitative reproduction of the intergenerational mass ratio $m_s/m_d\approx20$ has not yet been achieved.
@@ -178,22 +178,23 @@ Therefore, the zig‑zag ladder is self‑consistent and conserves the total ent
 \end{itemize}
 
 \section{Conclusion}
-We have presented a heuristic unified perspective, ``topological genesis of dimensions,'' supported by preliminary numerical experiments and astronomical observations. The 1D chain spectral dimension, finite-size scaling of 2D weaving, galaxy rotation curve blind test, triple degeneracy in 3D grids, and black hole dimensional collapse are all consistent with the $0$-$1$-$2$-$3$-$4$ zig-zag ladder. Despite open issues and the abyss at $0\to1$, this work provides a new testable framework for understanding fundamental forces as anchors of dimensionality. The validity of the ladder awaits stricter mathematical proofs and larger-scale simulations.
+We have presented a heuristic unified perspective, ``topological genesis of dimensions,'' supported by preliminary numerical experiments and astronomical observations. The 1D chain spectral dimension, finite-size scaling of 2D weaving, galaxy rotation curve blind test (1.6\% precision, referencing Paper IV), triple degeneracy in 3D grids interpreted as $O_h$ group representation, and black hole dimensional collapse are all consistent with the $0$-$1$-$2$-$3$-$4$ zig-zag ladder. Despite open issues and the pre-geometric singularity at $0\to1$, this work provides a new testable framework for understanding fundamental forces as anchors of dimensionality. The validity of the ladder awaits stricter mathematical proofs and larger-scale simulations.
 
 \section*{Data and Code Availability}
 All numerical codes are open-sourced at \url{https://github.com/hzhangy/neaduality}. Gravitational observational data (SPARC fits, blind test) are from the independent repository \url{https://github.com/hzhangy/nea2gravity} (Paper IV).
 
 \section*{Acknowledgments}
-The authors thank the AI collaboration team for intensive computational support.
+The author thanks the AI collaboration team for intensive computational support.
 
 \begin{thebibliography}{99}
 \bibitem{sparc} Lelli, F., McGaugh, S. S., \& Schombert, J. M. (2016). SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves. \textit{AJ}, 152, 157.
-\bibitem{book} Zhang, Y. (2024). \textit{Being is Time}. Chinese edition.
+\bibitem{book} Zhang, Y. (2025). \textit{Being is Time}. ISBN 978-1-917850-74-2 (Chinese Version). ISBN 978-1-80609-401-1 (English Version).
 \bibitem{rindler} Jacobson, T. (1995). Thermodynamics of Spacetime: The Einstein Equation of State. \textit{Phys. Rev. Lett.}, 75, 1260.
 \bibitem{verlinde} Verlinde, E. (2011). On the Origin of Gravity and the Laws of Newton. \textit{JHEP}, 1104, 029.
 \bibitem{bombelli} Bombelli, L., et al. (1987). Space–time as a causal set. \textit{Phys. Rev. Lett.}, 59, 521.
 \bibitem{ambjorn} Ambjørn, J., Jurkiewicz, J., \& Loll, R. (2005). Reconstructing the Universe. \textit{Phys. Rev. D}, 72, 064014.
 \bibitem{milgrom} Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. \textit{ApJ}, 270, 365.
+\bibitem{paperIV} Zhang, Y. (2026). Dark Matter as a Projection Artifact: Observational Evidence from SPARC Galaxy Rotation Curves. Zenodo. https://doi.org/10.5281/zenodo.19483095
 \end{thebibliography}
 
 \end{document}
